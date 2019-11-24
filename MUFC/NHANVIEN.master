@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="NHANVIEN.master.cs" Inherits="MUFC.NHANVIEN" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <table>
+        <tr>
+            <td><a href="NV1.aspx">DANH SÁCH NHÂN VIÊN</a></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+            <td><a href="TTCT.aspx">THÔNG TIN CẦU THỦ</a></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+            <td><a href="BC.aspx">BÁO CÁO</a></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+            <td><a href="DANGXUAT.aspx">ĐĂNG XUẤT</a></td>
+        </tr>
+    </table>
+    <asp:ContentPlaceHolder ID="maincontent" runat="server">
+        </asp:ContentPlaceHolder>
+</asp:Content>

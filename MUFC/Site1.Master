@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MUFC.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>SHB ĐÀ NẴNG</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!--HEADER-->
+   <div class="header">
+			<div class="logo">
+				<img src="img/3.png"   alt="">
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Trận đấu tiếp theo</a></li>
+					<li><a href="NV1.aspx">Nhân viên</a></li>
+					<li><a href="">Liên hệ</a></li>
+					<li><a href="">Thông tin</a></li>
+					<li><a href="DANGNHAP.aspx">Đăng nhập</a></li>
+				</ul>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="sologan"> 
+				<h1>&nbsp;</h1>
+                <h1>WELCOME TO</h1>
+				<br>
+				<h2>SHB ĐÀ NẴNG FC</h2>
+
+			</div>
+		</div>
+		<div class="search">
+					<ul>
+						<li class="search-n">
+								 <input type="text" class="searchbox-i" placeholder="Search SHBĐN.com" >
+						</li>
+						<li class="adv">
+							<p><span class="match">SUPER SUNDAY | </span><a href=""><span class="mu">SHB ĐÀ NẴNG VS HAGL FC</span></a></p>
+							
+						</li>
+					</ul>
+		</div>
+		<div class="slider">
+			    <div class="block_slider">
+			    	<a href="" title=""><img src="img/1.jpg" alt=""></a>
+			    	<a href="" title=""><img src="img/4.jpg" alt=""></a>
+			    	<a href="" title=""><img src="img/10.jpg" alt=""></a>
+			    	<a href="" title=""><img src="img/12.jpg" alt=""></a>
+			    </div>
+			    <div class="block_slider">
+			    	<a  href="" title=""><img src="img/13.jpg" alt="" ></a>
+			    	<a  href="" title=""><img src="img/16.jpg" alt="" ></a>
+			    	<a  href="" title=""><img src="img/14.jpg" alt="" ></a>
+			    	<a  href="" title=""><img src="img/6.jpg" alt="" ></a>
+		
+			    </div>
+			    <div class="block_slider">
+			    	<a href="" title=""><img src="img/7.jpg" alt=""></a>
+			    	<a href="" title=""><img src="img/8.jpg" alt=""></a>
+			    	<a href="" title=""><img src="img/15.jpg" alt=""></a>
+			    	<a href="" title=""><img src="img/17.jpg" alt=""></a>
+			   
+		  		</div>
+		</div>
+    <!--ENDHEADER-->
+    <!--MAIN-->
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!--ENDMAIN-->
+    <!--FOOTER-->
+   <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+      	auto: true,
+      	pager :true,
+      	speed:3000
+      });
+    });
+  </script>
+    <!--ENDFOOTER-->
+</body>
+</html>

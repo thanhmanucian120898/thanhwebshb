@@ -1,0 +1,39 @@
+﻿.header_ql h2{
+    text-align:center;
+}
+.menu_ql ul {
+    float: left;
+    margin-left: 320px;
+    display: block;
+}
+.menu_ql li {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu_ql li a{
+    text-decoration:none;
+    color:red;
+    font-size:20px;
+}
+.menu_ql li:hover {
+   box-sizing:border-box;
+   background-color:black;
+   border-radius:2em;
+   padding:10px 5px;
+}
+table {
+    background-color: #AF4034;
+    color: black;
+    width: 1429px;
+}
+table tr{
+    height:40px;
+
+}
+.ql5 h3 {
+    text-align: center;
+    color: #AF4034;
+    font-size:25px;
+}

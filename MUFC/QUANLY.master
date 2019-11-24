@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="QUANLY.master.cs" Inherits="MUFC.QUANLY" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="css/styleql.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+ 
+    <div class="header_ql">
+        <h2>QUẢN LÝ CÂU LẠC BỘ</h2>
+    </div>
+    <div class="menu_ql">
+        <ul>
+            <li><a href="QL1.aspx">QUẢN LÝ CẦU THỦ</a></li>
+            <li><a href="QL2.aspx">TÌM KIẾM CẦU THỦ</a></li>
+            <li><a href="QL3.aspx">THÊM CẦU THỦ</a></li>
+            <li><a href="QL4.aspx">CẬP NHẬT CẦU THỦ</a></li>
+            <li><a href="QL5.aspx">HỢP ĐỒNG</a></li>
+            <li><a href="DANGXUAT.aspx">ĐĂNG XUẤT</a></li>
+
+        </ul>
+    </div>
+        <asp:ContentPlaceHolder ID="maincontent" runat="server">
+        </asp:ContentPlaceHolder>
+</asp:Content>
